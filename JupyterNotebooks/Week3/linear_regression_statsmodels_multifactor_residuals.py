@@ -5,7 +5,7 @@ import statsmodels.formula.api as smf
 include_newspaper = False
 
 # Get the data
-advert = pd.read_csv('advertising.csv')
+advert = pd.read_csv('homework/advertising.csv')
 print(advert.head())
 
 fig, ax = plt.subplots(1, figsize=(8,8))

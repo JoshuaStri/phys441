@@ -3,7 +3,7 @@ import pandas as pd
 import statsmodels.formula.api as smf
 
 # Get the data
-advert = pd.read_csv('advertising.csv')
+advert = pd.read_csv('homework/advertising.csv')
 print(advert.head())
 
 # Look at the data!  Create plots of Sales vs. each variable
